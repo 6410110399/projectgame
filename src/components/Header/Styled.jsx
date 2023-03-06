@@ -3,9 +3,9 @@ import styled from 'styled-components'
 import HeaderBG from '../../assets/header-bg.jpeg'
 
 export const HeaderCon = styled.section`
-    height: 720px;
+    height: 800px;
     background: url(${HeaderBG});
-    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.2);
     border-bottom: 8px solid #222;
     background-position: center;
     background-size: cover;
@@ -14,12 +14,11 @@ export const HeaderCon = styled.section`
 export const NavCon = styled.nav`
     display: flex;
     justify-content: space-between;
+    box-shadow: inset 0 0 0 500px rgba(255, 0, 0, 0.25);
     padding: 2rem 4rem;
+    
 
-    svg {
-        width: 150px;
-        fill: red;
-    }
+   
 `
 
 export const Menu = styled.ul`
@@ -27,7 +26,7 @@ export const Menu = styled.ul`
     list-style: none;
 
     li {
-        margin: 0rem 2rem;
+        margin: 0rem 0.5rem;
 
         a {
             color: #fff;

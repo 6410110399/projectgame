@@ -10,7 +10,7 @@ export const NavBar = styled.nav`
 `
 
 export const Netflix = styled.svg`
-    width: 150px;
+    width: 200px;
     fill: red;
 `
 
